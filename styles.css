@@ -90,3 +90,7 @@ div.page1 {
 .right {
     float:right;
 }
+
+div.intro{
+    top: 3000px;
+}
