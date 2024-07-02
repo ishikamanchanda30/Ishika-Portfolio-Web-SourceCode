@@ -1,10 +1,10 @@
-.image_container{
+.image_container {
 
     justify-content: center;
     overflow: hidden;
 }
 
-.image{
+.image {
     width: auto;
     height: 270px;
     transition: transform 0.5s ease;
@@ -13,18 +13,19 @@
 
 }
 
-.image:hover{
+.image:hover {
     transform: scale(1.1);
     overflow: hidden;
 
 }
 
-.image:hover ~ .image {
+.image:hover~.image {
     filter: grayscale(100%);
     overflow: hidden;
 }
-.image:hover{
-    filter:grayscale(0%);
+
+.image:hover {
+    filter: grayscale(0%);
     overflow: hidden;
 
 }

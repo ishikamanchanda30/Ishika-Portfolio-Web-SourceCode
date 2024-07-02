@@ -1,53 +1,84 @@
-*{
+* {
     scroll-behavior: smooth;
     text-align: center;
-    font-family:'Poppins';
+    font-family: 'Poppins';
     background-color: #f1f1f1;
     color: #353535;
 }
 
-body{
+body {
 
     height: 100vh;
     width: 100%;
-    margin:auto;
-
+    margin: 0;
+    position: absolute;
 }
 
-header  {
+header {
     width: 100%;
-    height:90px;
+    height: 90px;
     display: flex;
-    background-color:black;
+    background-color: black;
     justify-content: space-between;
     align-items: center;
-    position:fixed;
-    top:0;
+    position: fixed;
+    top: 0;
 }
-h1{
-    margin-left: 100px;
-    border:0;
+
+.logos {
+    background-color: black;
+    padding-right: 100px;
+    overflow: hidden;
+}
+
+.img_logo {
+    padding-left: 10px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.img_links {
+    text-decoration: none;
+    overflow: hidden;
 
 }
-h1 a{
+
+h1 {
+    margin-left: 100px;
+    border: 0;
+
+}
+
+header a {
+    text-decoration: none;
+    background-color: black;
+    color: #f1f1f1;
+    border: 0;
+
+
+}
+
+h1 a {
 
     text-decoration: none;
-    background-color:black;
-    color:#f1f1f1;
-    border:0;
-}
+    background-color: black;
+    color: #f1f1f1;
+    border: 0;
 
+
+}
 
 nav {
-    width:100%;
-    margin-top: 105px;
+    width: 100%;
+    margin-top: 100px;
     overflow: hidden;
 
 }
 
-.homepage.list.item{
+.homepage.list.item {
     overflow: hidden;
 }
+
 .list {
 
     display: flex;
@@ -73,18 +104,18 @@ nav {
 
 .link {
 
-    position:relative;
-    color: #353535; 
-    text-decoration:none;
+    position: relative;
+    color: #353535;
+    text-decoration: none;
     padding-top: 0;
     padding-bottom: 7px;
     overflow: hidden;
-    
+
 
 }
 
 .link::before {
-    content:"";
+    content: "";
     position: absolute;
     bottom: 0px;
     left: 0;
@@ -115,9 +146,25 @@ nav {
 }
 
 
-footer{
-    bottom: 10px;
-    position:relative;
-    justify-content: center;
 
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 30px;
+}
+
+.page1 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.homepagebox {
+    height: 100px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
 }

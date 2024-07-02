@@ -1,38 +1,57 @@
-div > p {
+* {
+    scroll-behavior: smooth;
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: #f1f1f1;
+    color: #353535;
+}
+
+body {
+
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+
+}
+
+div>p {
+    display: flex;
     width: 400px;
     height: 100px;
     text-align: center;
     box-sizing: border-box;
 
 }
-.container{
-    justify-content:center;
-    display:flex; 
-    height:400px;
-}
 
-.title{
+.container {
     justify-content: center;
     display: flex;
+    height: 400px;
+}
+
+.title {
+    justify-content: center;
+
 
 }
 
-div > div > p.para1{
-    height:350px;
-    width:330px;
-    text-align: left;
-    margin-top: 120px;
+div>div>p.para1 {
+    height: min-content;
+    width: 350px;
+    text-align: center;
+    margin: auto;
 }
 
-div > div > p.para2{
-    height:350px;
-    width:330px;
-    text-align: right;
-    margin-top: 70px;
+div>div>p.para2 {
+    height: min-content;
+    width: 330px;
+    text-align: center;
+    margin: auto;
 }
 
-.myimg{
+.myimg {
     margin-left: 50px;
     margin-right: 50px;
-    overflow:hidden;
+    overflow: hidden;
 }
