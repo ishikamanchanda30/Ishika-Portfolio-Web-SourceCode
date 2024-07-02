@@ -18,16 +18,21 @@ header  {
     width: 100%;
     height:90px;
     display: flex;
-    background-color:#353535;
+    background-color:black;
     justify-content: space-between;
     align-items: center;
     position:fixed;
     top:0;
 }
+h1{
+    margin-left: 100px;
+    border:0;
 
+}
 h1 a{
+
     text-decoration: none;
-    background-color: #353535;
+    background-color:black;
     color:#f1f1f1;
     border:0;
 }
@@ -36,10 +41,13 @@ h1 a{
 nav {
     width:100%;
     margin-top: 105px;
+    overflow: hidden;
 
 }
 
-
+.homepage.list.item{
+    overflow: hidden;
+}
 .list {
 
     display: flex;
@@ -47,6 +55,7 @@ nav {
     justify-content: center;
     align-items: center;
     line-height: 3px;
+
 }
 
 .num {
@@ -64,16 +73,18 @@ nav {
 
 .link {
 
-    position: relative;
+    position:relative;
     color: #353535; 
     text-decoration:none;
     padding-top: 0;
     padding-bottom: 7px;
+    overflow: hidden;
+    
 
 }
 
 .link::before {
-    content: "";
+    content:"";
     position: absolute;
     bottom: 0px;
     left: 0;
@@ -82,6 +93,7 @@ nav {
     background: #121212;
     transition: all 100ms ease-in-out;
     font-size: 1rem;
+
 }
 
 .link::after {
@@ -94,25 +106,18 @@ nav {
     background: #121212;
     transition: all 390ms ease-in-out;
     font-size: 1rem;
+
 }
 
 .link:hover::after {
     width: 100%;
-}
-div.page1{
-    box-sizing: border-box;
 
 }
-div > div.box1 {
-    float: left;
-}
 
-div > div.box2{
-    float: right;
-}
 
 footer{
     bottom: 10px;
     position:relative;
     justify-content: center;
+
 }

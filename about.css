@@ -11,6 +11,12 @@ div > p {
     height:400px;
 }
 
+.title{
+    justify-content: center;
+    display: flex;
+
+}
+
 div > div > p.para1{
     height:350px;
     width:330px;
